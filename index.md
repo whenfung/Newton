@@ -19,7 +19,7 @@ title: 首页
 
       <ul>
       {% for post in group.items %}
-        <li><div style="width:4rem;float:left;">{{ post.date | date: "%b %-d" }}</div> <a href="{{ site.github.url }}/Newton/{{ post.url }}" class="archive-item-link" title="{{post.title}}">{{ post.title }}</a></li>
+        <li><div style="width:4rem;float:left;">{{ post.date | date: "%b %-d" }}</div> <a href="{{ site.github.url }}/Newton{{ post.url }}" class="archive-item-link" title="{{post.title}}">{{ post.title }}</a></li>
       {% endfor %}
       </ul>
 
