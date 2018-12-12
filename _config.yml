@@ -1,3 +1,8 @@
+#URL
+url: https://dengwenfeng.com
+baseurl: /Newton
+
+
 #博客名字和描述自定义
 title: Newton
 description: 基于jekyll的github极简主题
